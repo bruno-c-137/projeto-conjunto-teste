@@ -1,0 +1,29 @@
+@import "./tailwind.scss";
+
+html,
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+#root {
+    @apply flex flex-col w-screen h-screen max-w-full overflow-x-hidden;
+    > .main {
+        @apply flex-1;
+    }
+}
+
+button,
+select,
+option {
+    font-family: 'Raleway', sans-serif;
+}
+.display-flex {
+    display: flex;
+}
+.list-style-none {
+    list-style: none;
+}
