@@ -8,7 +8,6 @@ export default function LayoutBase(props: any) {
             <div className="main">{props.children}</div>
             <Footer />
 
-
         </>
     );
 }

@@ -1,35 +1,35 @@
-.header-container{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    height: 6rem;
-    align-items: center;
-}
+@import "../../assets/mixins/breakpoint.scss";
 
-.menu-header{
+.menu-header {
     display: flex;
     align-items: center;
 }
 
-.menu-header ul{
+.menu-header ul {
     display: flex;
     align-items: center;
 }
-.menu-header ul li{
-    margin: 13px; 
-}
-.menu-header ul li{
-   color: #2E6175;
+
+.menu-header ul li {
+    margin: 13px;
 }
 
-.logo-cbcenf-header{
-    background: url(../../assets/images/cbcenf.png) no-repeat center center;
-    width: 330px;
-    height: 65px;
+.menu-header ul li {
+    color: #2E6175;
 }
 
-.logo-cofen-header{
-    background: url(../../assets/images/cofen.png) no-repeat center center;
-    width: 330px;
-    height: 65px;
+@include bp(md) {
+    .logo-cbcenf-header {
+        background: url(../../assets/images/cbcenf.png) no-repeat center center;
+        width: 330px;
+        height: 65px;
+    }
+}
+
+@include bp(md) {
+    .logo-cofen-header {
+        background: url(../../assets/images/cofen.png) no-repeat center center;
+        width: 330px;
+        height: 65px;
+    }
 }
