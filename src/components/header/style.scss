@@ -1,12 +1,12 @@
 @import "../../assets/mixins/breakpoint.scss";
 
 .menu-header {
-    display: flex;
+   
     align-items: center;
 }
 
 .menu-header ul {
-    display: flex;
+   
     align-items: center;
 }
 
@@ -31,5 +31,46 @@
         background: url(../../assets/images/cofen.png) no-repeat center center;
         width: 330px;
         height: 65px;
+    }
+}
+
+.hamburguer {
+    width: 52px;
+    height: 43px;
+    border-top: 6px solid;
+    display: block;
+    color:rgba(17, 75, 98, 1);
+}
+
+.hamburguer::after,
+.hamburguer::before {
+    border: 2.5px solid;
+    width: 52px;
+    
+    background: currentColor;
+    content: "";
+    display: block;
+    margin-top: 6px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.ativado {
+    .hamburguer {
+        border-top-color: transparent;
+    }
+}
+
+.ativado {
+    .hamburguer::before {
+        transform: rotate(135deg);
+    }
+}
+
+.ativado {
+    .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -8px;
+        margin-top: 5px;
     }
 }
