@@ -8,7 +8,7 @@ export default function Header() {
         <>
             <div className="bg-white">
                 <div className="container">
-                    <div className='md:flex items-center relative justify-around h-24'>
+                    <div className='md:flex items-center justify-around h-24'>
                         <div className='logo-cbcenf-header'> </div>
                         <div className={`md:hidden md:mb-4 mt-4 ${openBot && 'ativado'}`}  >
                             <div className="flex justify-around md:p-0">
@@ -20,7 +20,7 @@ export default function Header() {
                                 </button>
                             </div>
                         </div>
-                        <div className={`mt-10 md:mt-0 h-96 md:h-full md:block menu-header ${openBot ? "block" : "hidden"}`}>
+                        <div className={`mt-10 md:mt-0 relative z-10 h-96 md:h-full md:block menu-header ${openBot ? "block" : "hidden"}`}>
                             <ul className="md:flex">
                                 <li> <a href="#">inicio</a>  </li>
                                 <li> <a href="#">Sobre</a>  </li>
