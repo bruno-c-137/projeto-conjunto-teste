@@ -1,8 +1,18 @@
 @import "../../assets/mixins/breakpoint.scss";
 
 .menu-header {
-   
-    align-items: center;
+    background: #dbdbdb;
+    
+    font-size: 1rem;
+    
+}
+@include bp(md) {
+    .menu-header {
+        display: flex;
+        align-items: center;
+       background-color: white;
+    
+    }
 }
 
 .menu-header ul {
@@ -11,7 +21,11 @@
 }
 
 .menu-header ul li {
-    margin: 13px;
+    padding: 10px 0px 0px 13px;
+}
+.menu-header ul li a:focus{
+    background: #bebebe;
+    transition: 1s;
 }
 
 .menu-header ul li {
@@ -74,3 +88,9 @@
         margin-top: 5px;
     }
 }
+
+// .logo-cbcenfs{
+//     background: url(../../assets/images/cbcenf.png) no-repeat center center;
+//     width: 330px;
+//     height: 65px;
+// }

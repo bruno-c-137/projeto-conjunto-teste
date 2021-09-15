@@ -3,6 +3,7 @@ import {
     Switch,
     Route
   } from "react-router-dom";
+  import Desktop1 from "pages/desktop1";
  import LayoutBase from "layout/base";
   
   
@@ -11,7 +12,7 @@ import {
       <Router>
         <LayoutBase>
           <Switch>
-            
+            <Route exact path='/' component={Desktop1}/>
           </Switch>
         </LayoutBase>
       </Router>
