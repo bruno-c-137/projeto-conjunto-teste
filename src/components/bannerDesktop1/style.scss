@@ -21,15 +21,13 @@
 
 
 .img1 {
-    background-image: url("../../assets/images/banner-mobile1.png");
-    background-size: cover;
+    background: url("../../assets/images/banner-mobile1.png") center no-repeat;
 
 }
 
 @include bp(md) {
     .img1 {
-        background-image: url("../../assets/images/banner-desktop1.png");
-        background-size: cover;
+        background: url("../../assets/images/banner-home.71fbde33.png") center no-repeat;
 
     }
 }

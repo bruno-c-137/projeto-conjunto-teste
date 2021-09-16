@@ -20,7 +20,7 @@ export default function Header() {
                                 </button>
                             </div>
                         </div>
-                        <div className={`mt-10 md:mt-0 relative z-10 h-96 md:h-full md:block menu-header ${openBot ? "block" : "hidden"}`}>
+                        <div className={`mt-10 md:mt-0 relative z-10 h-72 md:h-full md:block menu-header ${openBot ? "block" : "hidden"}`}>
                             <ul className="md:flex">
                                 <li> <a href="#">inicio</a>  </li>
                                 <li> <a href="#">Sobre</a>  </li>
