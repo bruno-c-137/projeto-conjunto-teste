@@ -4,6 +4,10 @@ import Frame1 from "../../assets/images/Frame.png"
 import Frame2 from "../../assets/images/Frame(1).png"
 import Frame3 from "../../assets/images/Frame(2).png"
 import '../../pages/desktop1/style.scss'
+import Programacao from "components/programacao";
+
+
+
 export default function Desktop1() {
 
     return (
@@ -41,6 +45,7 @@ export default function Desktop1() {
 
                 </div>
             </div>
+            <Programacao />
         </>
 
     );
