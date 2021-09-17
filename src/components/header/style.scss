@@ -2,32 +2,35 @@
 
 .menu-header {
     background: #dbdbdb;
-    
+
     font-size: 1rem;
-    
+
 }
+
 @include bp(md) {
     .menu-header {
         display: flex;
         align-items: center;
-       background-color: white;
-    
+        background-color: white;
+
     }
 }
 
 .menu-header ul {
-   
+
     align-items: center;
 }
 
 .menu-header ul li {
     margin-bottom: 2px solid black;
 }
-.menu-header ul li a{
+
+.menu-header ul li a {
     display: block;
     padding: 1rem 0 1rem 1rem;
 }
-.menu-header ul li a:hover{
+
+.menu-header ul li a:hover {
     background: #bebebe;
     transition: 1s;
 }
@@ -36,13 +39,7 @@
     color: #2E6175;
 }
 
-@include bp(md) {
-    .logo-cbcenf-header {
-        background: url(../../assets/images/cbcenf.png) no-repeat center center;
-        width: 330px;
-        height: 65px;
-    }
-}
+
 
 @include bp(md) {
     .logo-cofen-header {
@@ -57,14 +54,14 @@
     height: 43px;
     border-top: 6px solid;
     display: block;
-    color:rgba(17, 75, 98, 1);
+    color: rgba(17, 75, 98, 1);
 }
 
 .hamburguer::after,
 .hamburguer::before {
     border: 2.5px solid;
     width: 52px;
-    
+
     background: currentColor;
     content: "";
     display: block;

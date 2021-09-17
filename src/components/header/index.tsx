@@ -1,6 +1,8 @@
 import '../header/style.scss'
 import { useState } from 'react';
 import cbcenf from '../../assets/images/cbcenf.png'
+import LogoCbcenfHeader from "../../assets/images/cbcenf.png"
+import logoCofenHeader from "../../assets/images/cofen.png"
 export default function Header() {
     const [openBot, setOpenBot] = useState(false)
 
@@ -8,8 +10,10 @@ export default function Header() {
         <>
             <div className="bg-white">
                 <div className="container">
-                    <div className='md:flex items-center justify-around h-24'>
-                        <div className='logo-cbcenf-header'> </div>
+                    <div className='md:flex items-center justify-between h-24'>
+                        <div className="hidden md:block">
+                            <img src={LogoCbcenfHeader} alt="" />
+                        </div>
                         <div className={`md:hidden md:mb-4 mt-4 ${openBot && 'ativado'}`}  >
                             <div className="flex justify-around md:p-0">
                                 <div className='logo-cbcenfs'>
@@ -29,7 +33,8 @@ export default function Header() {
                                 <li><a href="#">Redes Sociais</a> </li>
                             </ul>
                         </div>
-                        <div className='logo-cofen-header'>
+                        <div className="hidden md:block">
+                            <img src={logoCofenHeader} alt="" />
 
                         </div>
                     </div>

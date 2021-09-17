@@ -1,70 +1,33 @@
-.menu-footer {
-    width: 14rem;
-    color: #2E6175;
+@import "../../assets/mixins/breakpoint.scss";
+
+.LogoCbcenf {
+    background: url("../../assets/images/cbcenf-mobile.png") no-repeat;
+    width: 128px;
+    height: 89px;
+
 }
 
-// .logo-cbcenf-footer{
-//     background: url(../../assets/images/cbcenf.png) no-repeat center center;
-//     width: 330px;
-//     height: 65px;
-// }
-
-.footer-container{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    align-items: center;
-    border-bottom: 15px solid #FAB52C;
-}
-// .logo-cofenn-footer{
-//     background: url(../../assets/images/Frame-footer.png) no-repeat center center;
-//     width:188px;
-//     height: 65px;
-// }
-// .logo-cofen-footer{
-//     background: url(../../assets/images/Frame-footer.png) no-repeat center center;
-//     width: 188px;
-//     height: 65px;
-// }
-
-.logos-baixo-footer{
-    display: flex;
-}
-// .rodape{
-//     width: 100%;
-//     height: 1rem;
-//     background-color: #FAB52C;
-// }
-
-//!===== mobile =====!//
-
-@media (max-width: 740px){
-.logo-cbcenf-footer{
-    display: none;
+.text-footer {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 600;
+    color: rgba(17, 75, 98, 1);
 }
 
-.menu-footer{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 1rem;
-}
-.menu-footer a{
-    width: 14rem;
+@include bp(md) {
+    .LogoCbcenf {
+        background: url("../../assets/images/cbcenf-desktop.png") no-repeat;
+        width: 246.76px;
+        height: 55px;
+
+    }
 }
 
-.footer-container{
-    display: block;
-    height: 13rem;
-}
-.logo-cbcenf-mobile{
-    background: url(../../assets/images/cbcenf-mobile.png) no-repeat center center;
-    width: 140px;
-    height: 6rem;
-    margin: 0 20px 0 0;
-}
-.logos-baixo-footer{
-    justify-content: center;
-    margin-top: 1rem;
-}
+@include bp(md) {
+    .text-footer {
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 600;
+        color: rgba(17, 75, 98, 1);
+    }
 }

@@ -1,33 +1,39 @@
 import '../footer/style.scss'
-import cbcenf from '../../assets/images/cbcenf.png'
 import cofen from '../../assets/images/Frame-footer.png'
 
 export default function Footer() {
     return (
         <>
-            <div className='footer-container'>
+            <div className="bg-white flex  ">
+                <div className='container  p-4 md:p-0  sm:pr-40 sm:pl-40'>
+                    <div className=" md:flex justify-between md:mt-7  mb-5 mt-3  items-center ">
+
+                        <div className='flex flex-1 items-center md:mr-16 md:mb-0 mb-9'>
+                            <div className="flex-1" >
+                                <div className="md:w-3/5 text-footer">
+                                    CONGRESSO BRASILEIRO DOS CONSELHOS DE ENFERMAGEM</div>
+                            </div>
+                            <div className="LogoCbcenf ">
+
+                            </div>
+                        </div>
 
 
-                <div className='menu-footer'>
-                    <div className='logo-cbcenf-mobile'></div>
-                    <a href="#">CONGRESSO BRASILEIRO DOS CONSELHOS DE ENFERMAGEM </a>
-                </div>
-                <div className='logo-cbcenf-footer'>
-                    <img src={cbcenf} alt="" />
-                </div>
 
-                <div className='logos-baixo-footer'>
-                    <div className='logo-cofenn-footer mx-4'>
-                        <img src={cofen} alt="" />
+                        <div className='md:w-1/3' >
+                            <div className='flex'>
+                                <div className='flex-1'>
+                                    <img src={cofen} alt="" />
+                                </div>
+                                <div>
+                                    <img src={cofen} alt="" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className='logo-cofen-footer'>
-                        <img src={cofen} alt="" />
-                    </div>
+
                 </div>
-
-
             </div>
-            <div className='rodape'></div>
         </>
 
     );

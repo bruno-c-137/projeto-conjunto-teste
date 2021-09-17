@@ -1,8 +1,15 @@
 @import "../../assets/mixins/breakpoint.scss";
 
 .height-banner3 {
-    height: 541px;
+    height: 360px;
 
+}
+
+@include bp(md) {
+    .height-banner3 {
+        height: 541px;
+
+    }
 }
 
 .banner-title {
