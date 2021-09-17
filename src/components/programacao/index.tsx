@@ -8,7 +8,7 @@ export default function Programacao() {
                 <p className='mini-title text-sm'>ACOMPANHE</p>
                 <h1 className='title-programacao text-5xl'><b>Programação</b></h1>
                 <div className='box-date'>
-                    <ul className='flex justify-around color- border-b my-4 h-24'>
+                    <ul className='flex justify-between color- border-b my-4 h-24'>
                         <li className={`  ${prog === 1 ? 'ative-border' : ''}`}>
                             <button className={`${prog === 1 ? 'bg-white text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl' : 'bg-gray-200 text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(1)} >
                                 <div className="md:flex justify-center">
