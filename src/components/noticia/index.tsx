@@ -2,13 +2,33 @@ import '../../components/noticia/style.scss'
 import ImgNoticia1 from "../../assets/images/img1Noticias.png"
 import ImgNoticia2 from "../../assets/images/img2Noticias.png"
 import ImgNoticia3 from "../../assets/images/img3Noticias.png"
+import { ReactComponent as Vector1 } from "../../assets/images/Vector.svg"
+import { ReactComponent as Vector2 } from "../../assets/images/Vector1.svg"
+import { ReactComponent as Vector3 } from "../../assets/images/Vector2.svg"
+import { ReactComponent as Vector4 } from "../../assets/images/Vector3.svg"
 export default function Noticia() {
     return (
         <>
             <div className="md:mb-10 md:mt-10 p-4 md:p-0">
                 <div className="container ">
                     <p className="text-noticia">ÚLTIMAS</p>
-                    <h1 className="text-title">Notícias</h1>
+                    <div className="md:flex md:justify-between md:mb-8">
+                        <h1 className="text-title">Notícias</h1>
+                        <div className="hidden md:flex">
+                            <div className="self-end mr-5">
+                                <Vector1 />
+                            </div>
+                            <div className="mr-10">
+                                <Vector2 />
+                            </div>
+                            <div>
+                                <Vector3 />
+                            </div>
+                            <div>
+                                <Vector4 />
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="md:flex ">
                         <div className="md:w-1/2 md:mr-5 relative mb-10 md:mb-0">
