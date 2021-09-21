@@ -39,15 +39,18 @@ export default function Desktop1() {
                         <div className='z-10 relative box-video w-96 bg-gray-200 h-64 md:rounded-3xl'>
                             {/* video */}
                         </div>
-                        <img className='frame1 hidden md:block md:z-0 md:absolute' src={Frame1} alt=""  />
-                        <img className='frame2 hidden md:block md:z-0 md:absolute' src={Frame2} alt=""  />
-                        <img className='frame3 hidden md:block md:z-0 md:absolute' src={Frame3} alt=""  />
-                    </div>  
+                        <img className='frame1 hidden md:block md:z-0 md:absolute' src={Frame1} alt="" />
+                        <img className='frame2 hidden md:block md:z-0 md:absolute' src={Frame2} alt="" />
+                        <img className='frame3 hidden md:block md:z-0 md:absolute' src={Frame3} alt="" />
+                    </div>
 
                 </div>
             </div>
             <Programacao />
             <Noticia />
+            <div className="flex justify-center mb-10">
+                <a className="button-noticia" href="#">mais notícias</a>
+            </div>
         </>
 
     );
