@@ -10,34 +10,34 @@ export default function Programacao() {
                 <div className='box-date'>
                     <ul className='flex justify-between color- border-b my-4 h-24'>
                         <li className={`  ${prog === 1 ? 'ative-border' : ''}`}>
-                            <button className={`${prog === 1 ? 'bg-white text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl' : 'bg-gray-200 text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(1)} >
+                            <button className={`${prog === 1 ? 'active-transition border -sólido border-gray-300 bg-white text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl' : 'bg-gray-100 border -sólido border-gray-300 text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(1)} >
                                 <div className="md:flex justify-center">
                                     <p className="md:mr-2"><b> dia</b> </p>
-                                    <b>12</b>
+                                    <b>27</b>
                                 </div>
                             </button>
                         </li>
                         <li className={`  ${prog === 2 ? 'ative-border' : ''}`}>
-                            <button className={`${prog === 2 ? ' bg-white text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl' : 'bg-gray-200 text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(2)}>
+                            <button className={`${prog === 2 ? 'active-transition border -sólido border-gray-300 bg-white text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl' : 'bg-gray-100 border -sólido border-gray-300 text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(2)}>
                                 <div className="md:flex justify-center">
                                     <p className="md:mr-2"><b> dia</b> </p>
-                                    <b>12</b>
+                                    <b>28</b>
                                 </div>
                             </button>
                         </li>
                         <li className={`  ${prog === 3 ? 'ative-border' : ''}`}>
-                            <button className={`${prog === 3 ? ' bg-white text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl' : 'bg-gray-200 text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(3)}>
+                            <button className={`${prog === 3 ? 'active-transition border -sólido border-gray-300 bg-white text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl' : 'bg-gray-100 border -sólido border-gray-300 text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(3)}>
                                 <div className="md:flex justify-center">
                                     <p className="md:mr-2"><b> dia</b> </p>
-                                    <b>12</b>
+                                    <b>29</b>
                                 </div>
                             </button>
                         </li>
                         <li className={`  ${prog === 4 ? 'ative-border' : ''}`}>
-                            <button className={`${prog === 4 ? ' bg-white text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl' : 'bg-gray-200 text-center w-20 md:w-64 rounded-2xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(4)}>
+                            <button className={`${prog === 4 ? 'active-transition border -sólido border-gray-300 bg-white text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl' : 'bg-gray-100 border -sólido border-gray-300 text-center w-20 md:w-64 rounded-xl h-16 md:text-3xl text-2xl'} `} onClick={() => setProg(4)}>
                                 <div className="md:flex justify-center">
                                     <p className="md:mr-2"><b> dia</b> </p>
-                                    <b>12</b>
+                                    <b>30</b>
                                 </div>
                             </button>
                         </li>
