@@ -6,6 +6,7 @@ import Frame3 from "../../assets/images/Frame(2).png"
 import '../../pages/desktop1/style.scss'
 import Programacao from "components/programacao";
 import Noticia from "components/noticia";
+import RedeSociais from "components/redeSociais";
 
 
 
@@ -51,6 +52,8 @@ export default function Desktop1() {
             <div className="flex justify-center mb-10">
                 <a className="button-noticia" href="#">mais notícias</a>
             </div>
+            <RedeSociais />
+
         </>
 
     );
