@@ -9,6 +9,7 @@ import Balao3 from "../../assets/images/balão3.png"
 import '../../pages/desktop1/style.scss'
 import Programacao from "components/programacao";
 import Noticia from "components/noticia";
+import RedeSociais from "components/redeSociais";
 
 
 
@@ -52,12 +53,17 @@ export default function Desktop1() {
             <Programacao />
             <Noticia />
 
-            <div className='box-laranja my-36 relative'>
-            <div className='box-ims'>
-                <img className='absolute balao1 ' src={Balao1} alt="" />
-                <img className='absolute balao2 hidden md:block' src={Balao2} alt="" />
-                <img className='absolute balao3' src={Balao3} alt="" />
+          
+            <div className="flex justify-center mb-10">
+                <a className="button-noticia" href="#">mais notícias</a>
             </div>
+            <RedeSociais />
+  <div className='box-laranja my-36 relative'>
+                <div className='box-ims'>
+                    <img className='absolute balao1 ' src={Balao1} alt="" />
+                    <img className='absolute balao2 hidden md:block' src={Balao2} alt="" />
+                    <img className='absolute balao3' src={Balao3} alt="" />
+                </div>
                 <div className='container my-9 md:flex justify-around'>
                     <div className='div-laranja-text md:w-96 my-36 text-5xl'>
                         <p className='box-laranja-text'><b>
