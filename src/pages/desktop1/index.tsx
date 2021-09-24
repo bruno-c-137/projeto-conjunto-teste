@@ -53,24 +53,24 @@ export default function Desktop1() {
             <Programacao />
             <Noticia />
 
-          
+
             <div className="flex justify-center mb-10">
                 <a className="button-noticia" href="#">mais notícias</a>
             </div>
             <RedeSociais />
-  <div className='box-laranja my-36 relative'>
+            <div className='box-laranja my-36 relative'>
                 <div className='box-ims'>
                     <img className='absolute balao1 ' src={Balao1} alt="" />
                     <img className='absolute balao2 hidden md:block' src={Balao2} alt="" />
                     <img className='absolute balao3' src={Balao3} alt="" />
                 </div>
                 <div className='container my-9 md:flex justify-around'>
-                    <div className='div-laranja-text md:w-96 my-36 text-5xl'>
-                        <p className='box-laranja-text'><b>
-                            Participe do
-                            maior evento
-                            da Enfermagem na
-                            América Latina
+                    <div className='div-laranja-text md:w-96 my-36 text-4xl md:text-5xl'>
+                        <p className='box-laranja-text py-16 flex justify-center'><b>
+                            Participe do <br className='md:hidden' />
+                            maior evento <br className='md:hidden' />
+                            da Enfermagem <br className='md:hidden' /> na
+                            América <br className='md:hidden' /> Latina
                         </b> </p>
                     </div>
                     <div className=' my-auto'>

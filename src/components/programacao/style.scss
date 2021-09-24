@@ -13,10 +13,12 @@
 .ative-border {
     border-bottom: 5px solid rgba(121, 202, 222, 1);
     transform: scale(1.1);
-    transition: 0.1s ease-in
+    transition: 0.2s ease-in;
 }
 
 .active-transition{
     transform: scale(1.1);
-    transition: 0.2s ease-in
+    transition: 0.2s ease-in;
+    box-shadow: 0 7px 15px -3px #c7c7c7;
+
 }
