@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .balao1 {
+        top: 26rem;
+        right: auto;
+        transform: rotate(270deg);
+        width: 3rem;
+        margin-left: 1rem;
+    }
+    .balao3 {
+        right: -5rem;
+        top: -2rem;
+    }
+    .balao2 {
+        top: -3rem;
+    }
+    .box-laranja-text {
+        margin-top: -10rem;
+        margin-right: 40px;
+        margin-left: -15px;
+    }
+    .inscrevaSe-a {
+        font-size: 1.5rem;
+        padding: 0.75rem 2rem;
+    }
+}
